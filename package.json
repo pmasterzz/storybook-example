@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "yarn docs:json && start-storybook -p 6006",
-    "build-storybook": "yarn docs:json && build-storybook"
+    "build-storybook": "yarn docs:json && build-storybook",
+    "chromatic": "npx chromatic ./storybook-static --project-token 4k13it69pdy"
   },
   "private": true,
   "dependencies": {
