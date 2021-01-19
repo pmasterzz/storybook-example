@@ -8,4 +8,5 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ButtonComponent {
   @Input()
   public label?: string;
+  // add a comment
 }
