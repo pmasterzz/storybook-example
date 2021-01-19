@@ -11,7 +11,8 @@
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "yarn docs:json && start-storybook -p 6006",
     "build-storybook": "yarn docs:json && build-storybook",
-    "chromatic": "npx chromatic ./storybook-static --project-token 4k13it69pdy"
+    "chromatic": "chromatic ./storybook-static --project-token CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
+    
   },
   "private": true,
   "dependencies": {
@@ -23,7 +24,6 @@
     "@angular/platform-browser": "~11.0.9",
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
-    "chromatic": "^5.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -41,6 +41,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.6.0",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",

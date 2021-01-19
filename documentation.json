@@ -127,7 +127,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".pep-button {\n    background-color: orange;\n    color: #fff;\n    border-radius: 3px;\n    border: 1px solid orange;\n    padding: 5px 15px;\n    outline: none;\n    cursor: pointer;\n}",
+                    "data": ".pep-button {\n    background-color: orange;\n    color: #fff;\n    border-radius: 3px;\n    border: 1px solid orange;\n    padding: 5px 15px;\n    outline: none;\n    cursor: pointer;\n    font-weight: bold;\n}",
                     "styleUrl": "./button.component.scss"
                 }
             ],
